@@ -471,3 +471,60 @@ header{
 .section-team--social a:hover{
     background-color: #C0697A;
 }
+
+
+
+.section-review{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-review img{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.section-review--quote{
+    text-align: center;
+    line-height: 20px;
+    color: #7F7F7F;
+}
+
+
+.section-body-review .sliders-pointers {
+    width:100vw;
+    height:20px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:40px;
+}
+.section-body-review .pointer {
+    width:15px;
+    height:15px;
+    border:2px solid #C0697A;
+    border-radius:8px;
+    margin-left:5px;
+    margin-right:5px;
+    cursor:pointer;
+}
+.section-body-review .pointer.active {
+    background-color:#C0697A;
+}
+
+
+
+.section-companies {
+    border-top:1px solid #DDD;
+    border-bottom:1px solid #DDD;
+}
+.section-companies--area {
+    display:flex;
+    align-items:center;
+}
+.section-company {
+    flex:1;
+    text-align:center;
+}
